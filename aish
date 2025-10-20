@@ -1,0 +1,1 @@
+Get-Content form | ForEach-Object { "{0,4}: {1}" -f ($_.ReadCount), $_ }
