@@ -1,1 +1,16 @@
 Get-Content form | ForEach-Object { "{0,4}: {1}" -f ($_.ReadCount), $_ }
+"reset/clean"
+cd C:\Users\PC\23-5357-390-GUESDAN
+git checkout --orphan latest_branch
+git add -A
+git commit -m "Initial clean commit"
+git branch -D main
+git branch -m main
+git push -f origin main
+git config --global user.name "Guesdan John Moises"
+git config --global user.email "guesdanjohnmoises@gmail.com"
+git commit -m "Initial clean commit"
+git branch -D main
+git branch -m main
+git push -f origin main
+git log --shortstat
