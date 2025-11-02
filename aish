@@ -14,3 +14,48 @@ git branch -D main
 git branch -m main
 git push -f origin main
 git log --shortstat
+
+
+#  Create folders for each FreeCodeCamp project
+mkdir "cat-photo-app"
+mkdir "cafe-menu"
+mkdir "colored-markers"
+mkdir "registration-form"
+
+# Cat Photo App Project
+cd "cat-photo-app"
+echo > index.html
+echo > style.css
+cd ..
+
+#  Cafe Menu Project
+cd "cafe-menu"
+echo > index.html
+echo > style.css
+cd ..
+
+#  Colored Markers Project
+cd "colored-markers"
+echo > index.html
+echo > style.css
+cd ..
+
+#  Registration Form Project
+cd "registration-form"
+echo > index.html
+echo > style.css
+cd ..
+
+#  Stage, commit, and push all new folders/files to GitHub
+git add .
+git commit -m "Setup folders and empty files for FreeCodeCamp projects"
+git push
+
+
+next step 
+copy code freecode camp to vsc then save 
+
+
+then  git add .
+git commit -m "Setup folders and empty files for FreeCodeCamp projects"
+git push
