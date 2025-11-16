@@ -1,83 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title">Feedback Survey Form</h1>
-    <p id="description">We’d love to hear your thoughts! Please fill out this short survey to help us improve.</p>
+  <main id="main">
+    <h1 id="title">Manny Pacquiao: The People's Champ</h1>
 
-</body>
-</html>
+    <figure id="img-div">
+      <img id="image" src="pacquiao.jpg" alt="Manny Pacquiao">
+      <figcaption id="img-caption">Manny Pacquiao during his boxing career</figcaption>
+    </figure>
 
-<form id="survey-form">
+    <section id="tribute-info">
+      <h2>About Manny Pacquiao</h2>
+      <p>
+        Manny "Pacman" Pacquiao is a Filipino professional boxer and politician.  
+        Known for his speed, power, and relentless fighting style, he is the 
+        only boxer in history to win world titles in <strong>8 different weight divisions</strong>.
+      </p>
 
-    <label id="name-label" for="name">Full Name:</label>
-    <input
-    type="text"
-    id="name"
-    name="name"
-    placeholder="Enter your fullname"
-    required>
-    <br><br>
+      <h3>Career Highlights</h3>
+      <ul>
+        <li>First and only eight-division world champion</li>
+        <li>12 major world titles won</li>
+        <li>Named Fighter of the Decade by BWAA, WBO, and WBC</li>
+        <li>Ranked among the greatest boxers of all time</li>
+      </ul>
 
-    <label id="email-label" for="email">Email Address:</label>
-    <input
-    type="text"
-    id="name"
-    name="name"
-    placeholder="Enter your full name"
-    required>
-    <br><br>
+      <h3>Legacy</h3>
+      <p>
+        Beyond boxing, Pacquiao is known for his public service, humanitarian work,  
+        and his inspiring story of rising from poverty to becoming a global icon.
+      </p>
+    </section>
 
-    <label id="number-label" for="number">age (optional):</label>
-    <input 
-    type="text"
-    id="name"
-    name="age"
-    min="10"
-    max="100"
-    placeholder="Enter your age"
-    require>
-    <br><br>
-
-    <label
-    for="dropdown">Which Describes You The Best?</label>
-    <select id="dropdown" name="role">
-        <option value="">Select an option</option>
-        <option value="">Student</option>
-        <option value="">Professional</option>
-        <option value="">other</option>
-    </select>
-    <br><br>
-
-    <p>What topics would you like to see improved? (Select all that apply)</p>
-    <label>
-        <input type="checkbox" name="improve" value="design"> design
-        </label>
-        <label>
-            <input type="checkbox" name="improve" value="usability"> usability
-            </label>
-        </label>
-        <input type="checkbox" name="improve" value="Content"> Content
-    </label>
-    <br> <br>
-
-    <label for="comments">Additional Comments:</label> <br>
-    <textarea
-    id="comments"
-    name="comments"
-    placeholder="Write your feedback here"
-    row="4"
-    cols="40">
-</textarea>
-<br> <br>
-
-<button id="submit"
-type="submit">Submit</button>
-</form>
+    <p id="tribute-link-section">
+      Learn more about Manny Pacquiao on  
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Manny_Pacquiao" target="_blank">
+        his Wikipedia page
+      </a>.
+    </p>
+  </main>
 </body>
 </html>
