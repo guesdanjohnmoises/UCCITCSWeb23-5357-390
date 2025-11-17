@@ -1,3 +1,5 @@
+useful commands
+
 Get-Content form | ForEach-Object { "{0,4}: {1}" -f ($_.ReadCount), $_ }
 "reset/clean"
 cd C:\Users\PC\23-5357-390-GUESDAN
@@ -59,3 +61,12 @@ copy code freecode camp to vsc then save
 then  git add .
 git commit -m "Setup folders and empty files for FreeCodeCamp projects"
 git push
+
+
+vercel css cheat run commands 
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git push -u origin main
+
