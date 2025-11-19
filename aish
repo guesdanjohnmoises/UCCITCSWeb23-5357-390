@@ -1,5 +1,5 @@
 useful commands
-
+https://sites.google.com/view/francisg
 Get-Content form | ForEach-Object { "{0,4}: {1}" -f ($_.ReadCount), $_ }
 "reset/clean"
 cd C:\Users\PC\23-5357-390-GUESDAN
