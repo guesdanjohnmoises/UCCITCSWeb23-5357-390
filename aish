@@ -77,3 +77,11 @@ git remote add origin https://github.com/guesdanjohnmoises/product-landing-page.
 git branch -M main
 git push -u origin main
 
+
+after order_date
+go
+field name = customer
+type = varchar
+length = 100
+null = no  
+default = none
